@@ -3,9 +3,10 @@
 We used [Kohya LoRA Dreamboot](https://github.com/Linaqruf/kohya-trainer/blob/main/kohya-LoRA-dreambooth.ipynb) 
 and [Cagliostro Colab UI]( https://github.com/Linaqruf/sd-notebook-collection/blob/main/cagliostro-colab-ui.ipynbcolabs) for the purpose of this training.
 
-> 59 images used  to create the training set. They were renamed and saved as zip using [Birme](https://www.birme.net/?target_width=512&target_height=512&rename=x&rename_start=119)
+> 59 images were used  to create this training set. **Ideally you want to utilize a set of 100+ images for training.** 
+  Click on *rename, select 512 x 512 px, and save as zip* using [Birme](https://www.birme.net/?target_width=512&target_height=512&rename=x&rename_start=119)
 
-> Kohya LoRA Dreambooth settings:
+>:musical_keyboard: Kohya LoRA Dreambooth settings:
 
 :exclamation: If section is not mentioned here, it only means we skipped it.
 
@@ -19,6 +20,8 @@ and [Cagliostro Colab UI]( https://github.com/Linaqruf/sd-notebook-collection/bl
 
 >    3.2. Unzip Dataset. Click on icon folder in Kohya LoRA (top left), select the **drive** folder. Select *Copy path* option for your zip files and paste it into *zipfile_url*.
 
->    4.2.1 Run the *Blip Captioning* section.
+>    4.2.1 Run the *Blip Captioning* section without any changes.The content will appear in **train_data** folder.
+
+>    5.1. Model Config. Name your *project_name*. Select *Copy path* option for your Stable-Diffusion-v1-5.safetensors (under pretrained_model folder) and paste it into *vae*. ✅ *output_to_drive*.
 
 >
