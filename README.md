@@ -11,8 +11,10 @@ and [Cagliostro Colab UI]( https://github.com/Linaqruf/sd-notebook-collection/bl
 
 >    1.1 Install Dependencies. Make sure to ✅ *install_xformers and ✅ mount_drive*  in this section.
 
->    2.1 Download Avaialble Mode. Set modelName to *Stable-Diffusion-v1-5*
+>    2.1 Download Avaialble Mode. Set modelName to *Stable-Diffusion-v1-5*.
 
->    2.3 Download Available VAE(Optional). Choose vaeName as *stableddiffusion_v1_5*
+>    2.3 Download Available VAE(Optional). Choose vaeName as *stableddiffusion_v1_5*.
 
->
+>    3.1. Just run the *Locating Train Data Directory* section.
+
+>    3.2. Unzip Dataset. Click on icon folder in Kohya LoRA (top left), select the **drive** folder. Select *Copy path* option for your zip files and the paste it into *zipfile_url*.
