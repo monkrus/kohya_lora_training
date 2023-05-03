@@ -1,4 +1,4 @@
-# kohya_lora_training example
+# Kohya LoRA model training example
 
 We used [Kohya LoRA Dreamboot](https://github.com/Linaqruf/kohya-trainer/blob/main/kohya-LoRA-dreambooth.ipynb) 
 and [Cagliostro Colab UI]( https://github.com/Linaqruf/sd-notebook-collection/blob/main/cagliostro-colab-ui.ipynbcolabs) for the purpose of this training.
@@ -17,4 +17,8 @@ and [Cagliostro Colab UI]( https://github.com/Linaqruf/sd-notebook-collection/bl
 
 >    3.1. Just run the *Locating Train Data Directory* section.
 
->    3.2. Unzip Dataset. Click on icon folder in Kohya LoRA (top left), select the **drive** folder. Select *Copy path* option for your zip files and the paste it into *zipfile_url*.
+>    3.2. Unzip Dataset. Click on icon folder in Kohya LoRA (top left), select the **drive** folder. Select *Copy path* option for your zip files and paste it into *zipfile_url*.
+
+>    4.2.1 Run the *Blip Captioning* section.
+
+>
