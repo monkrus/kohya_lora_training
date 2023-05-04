@@ -35,9 +35,11 @@ and [Cagliostro Colab UI](https://colab.research.google.com/github/Linaqruf/sd-n
 > **Cagliostro Colab UI settings to choose and run:**
 Download your LoRA files and upload to stable-diffusion-webui -> model -> LoRA files. Settings are described in CCUI1.png and CCUI2.png files. The rest of the code must be run unchanged. Click on one of the 3 links in Start Cagliostro Colab section to get to the UI page.
 
-> In UI, find Lora panel to make sure your files are saved.Here you can test your models one by one.Add a short prompt.
+> In UI, find Lora panel to make sure your files are saved.Here you can test your models one by one.Once clicked, it appears there. Add a short prompt.
 
-> Example :point_right:  \<lora:Tutorial:1\> RAW photo of the LION,(high detailed:1.2), 8K UHD, DSLR,soft lightning,high quality, film grain, Fujifilm XT3 
+> Example:point_left  \<lora:Tutorial:1\> RAW photo of the LION,(high detailed:1.2), 8K UHD, DSLR,soft lightning,high quality, film grain, Fujifilm XT3 
+
+> Add a negative prompt as well. Example :point_left (deformed iris, deformed pupils, semi-realistic, cgi, 3d, render,sketch,cartoon,drawing, anime: 1:4), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, malformed limbs, missing arms, extra arms, extra legs, fused fingers, too many fingers, long neck
 
 
 
