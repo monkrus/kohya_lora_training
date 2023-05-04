@@ -33,7 +33,9 @@ and [Cagliostro Colab UI](https://colab.research.google.com/github/Linaqruf/sd-n
 >    :watch: Run the 5.5 Start Training section. It might take 40 minutes.Your files should be save in your Google Drive in your LoRA folder.Let`s now get to the next step.
     
 > **Cagliostro Colab UI settings to choose and run:**
-Download your LoRA files and upload to stable-diffusion-webui -> model -> LoRA files. 
+Download your LoRA files and upload to stable-diffusion-webui -> model -> LoRA files. Settings are described in CCUI1.png and CCUI2.png files. The rest of the code must be run unchanged. Click on one of the 3 links in Start Cagliostro Colab section to get to the UI page.
+
+
 
 
   
