@@ -6,7 +6,7 @@ and [Cagliostro Colab UI](https://colab.research.google.com/github/Linaqruf/sd-n
 > 59 images were used  to create this training set. **Ideally you want to utilize a set of 100+ images for training.** 
   Click on *rename, select 512 x 512 px, and save as zip* using [Birme](https://www.birme.net/?target_width=512&target_height=512&rename=x&rename_start=119)
 
-> Kohya LoRA Dreambooth settings to choose and run:
+> **Kohya LoRA Dreambooth settings to choose and run:**
 
 :exclamation: If section is not mentioned here, it only means we skipped it.
 
@@ -30,7 +30,12 @@ and [Cagliostro Colab UI](https://colab.research.google.com/github/Linaqruf/sd-n
 
 >    5.4 Training Config. Only change *train_batch_size* to 2 and let it run.
 
->    :watch: Run the 5.5 Start Training section. It might take 40 minutes.
+>    :watch: Run the 5.5 Start Training section. It might take 40 minutes.Your files should be save in your Google Drive in your LoRA folder.Let`s now get to the next step.
+    
+> **Cagliostro Colab UI settings to choose and run:**
+Download your LoRA files and upload to stable-diffusion-webui -> model -> LoRA files. 
 
+
+  
 
 
