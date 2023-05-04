@@ -35,6 +35,19 @@ and [Cagliostro Colab UI](https://colab.research.google.com/github/Linaqruf/sd-n
 > **Cagliostro Colab UI settings to choose and run:**
 Download your LoRA files and upload to stable-diffusion-webui -> model -> LoRA files. Settings are described in CCUI1.png and CCUI2.png files. The rest of the code must be run unchanged. Click on one of the 3 links in Start Cagliostro Colab section to get to the UI page.
 
+> In UI, find Lora panel to make sure your files are saved.Here you can test your models one by one.Add a short prompt.
+
+> Example :point_right:  \<lora:Tutorial:1\> RAW photo of the LION,(high detailed:1.2), 8K UHD, DSLR,soft lightning,high quality, film grain, Fujifilm XT3 
+
+
+
+
+
+
+
+
+
+
 
 
 
