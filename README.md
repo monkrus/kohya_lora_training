@@ -5,10 +5,12 @@ and [Cagliostro Colab UI](https://colab.research.google.com/github/Linaqruf/sd-n
 
 > 59 images were used  to create this training set. **Ideally you want to utilize a set of 100+ images for training.** 
   Click on *rename, select 512 x 512 px, and save as zip* using [Birme](https://www.birme.net/?target_width=512&target_height=512&rename=x&rename_start=119)
+  
+ > Please note there is 2 batches of images. Images generated with prompt 1 will give you an idea of mixing various LoRA files, adding vae etc. Prompt 1 and prompt 2 are not the same. That wil give you a lot of room to experiment.
 
 > **Kohya LoRA Dreambooth settings to choose and run:**
 
-:exclamation: If section is not mentioned here, it only means we skipped it.
+:exclamation: If section is not mentioned here, it only means we just ran it without changing anything.
 
 >    1.1 Install Dependencies. Make sure to ✅ *install_xformers and ✅ mount_drive*  in this section.
 
