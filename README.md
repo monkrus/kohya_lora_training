@@ -37,9 +37,9 @@ Download your LoRA files and upload to stable-diffusion-webui -> model -> LoRA f
 
 > In UI, find Lora panel to make sure your files are saved.Here you can test your models one by one.Once clicked, it appears there. Add a short prompt.
 
-> Example:point_right:  \<lora:Tutorial:1\> RAW photo of the GIRL,(high detailed:1.2), 8K UHD, DSLR,soft lightning,high quality, film grain, Fujifilm XT3 
+> Example:point_right:  \<lora:Sample-000001:1> RAW photo of the GIRL,(high detailed:1.2), 8K UHD, DSLR,soft lightning,high quality, film grain, Fujifilm XT3, masterpiece, best quality.
 
-> Add a negative prompt as well. Example:point_right: (deformed iris, deformed pupils, semi-realistic, cgi, 3d, render,sketch,cartoon,drawing, anime: 1:4), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, malformed limbs, missing arms, extra arms, extra legs, fused fingers, too many fingers, long neck
+> Add a negative prompt as well. Example:point_right: (worst quality, low quality, deformed iris, deformed pupils, semi-realistic, cgi, 3d, render,sketch,cartoon,drawing, anime: 1:4), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, malformed limbs, missing arms, extra arms, extra legs, fused fingers, too many fingers, long neck.
 
 > Sampling methois set to DPM++ SDE, sampling steps set to 25, Width/Height :768, Batch count/batch size: 1, CFG Scale: 6, Denoising strength: 0.11, seed: -1.
 
