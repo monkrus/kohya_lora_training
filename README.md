@@ -1,6 +1,6 @@
 # Kohya LoRA model training example
 
-We used [Kohya LoRA Dreamboot](https://colab.research.google.com/github/Linaqruf/kohya-trainer/blob/main/kohya-LoRA-dreambooth.ipynb) 
+We used [Kohya LoRA Dreambooth](https://colab.research.google.com/github/Linaqruf/kohya-trainer/blob/main/kohya-LoRA-dreambooth.ipynb) 
 and [Cagliostro Colab UI](https://colab.research.google.com/github/Linaqruf/sd-notebook-collection/blob/main/cagliostro-colab-ui.ipynb) for the purpose of this training.
 
 > 59 images were used  to create this training set. **Ideally you want to utilize a set of 100+ images for training.** 
