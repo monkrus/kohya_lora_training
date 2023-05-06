@@ -55,7 +55,7 @@ Example:point_right:  \<lora:Sample-000001:1> RAW photo of the GIRL,(high detail
 > Add a negative prompt as well. 
 Example:point_right: (worst quality, low quality, deformed iris, deformed pupils, semi-realistic, cgi, 3d, render,sketch,cartoon,drawing, anime: 1:4), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, malformed limbs, missing arms, extra arms, extra legs, fused fingers, too many fingers, long neck.
 
-> Sampling methois set to DPM++ SDE, sampling steps set to 25, Width/Height :768, Batch count/batch size: 1, CFG Scale: 6, Denoising strength: 0.11, seed: -1.
+> Sampling method is set to DPM++ SDE, sampling steps set to 25, Width/Height :768, Batch count/batch size: 1, CFG Scale: 6, Denoising strength: 0.11, seed: -1.
 
 > In control Model, nothing is changed besides ✅Enable, and setting Preprocessor: hed, Model: control_sd15_hed[fef5e48e].
 
