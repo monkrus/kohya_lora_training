@@ -10,21 +10,29 @@ and [Cagliostro Colab UI](https://colab.research.google.com/github/Linaqruf/sd-n
 
 > **Kohya LoRA Dreambooth settings to choose and run:**
 
-:exclamation: If section is not mentioned here, it only means we just ran it without changing anything.
+>    1.1 Install Dependencies. Make sure to ✅ *install_xformers and ✅ mount_drive*  in this section
 
->    1.1 Install Dependencies. Make sure to ✅ *install_xformers and ✅ mount_drive*  in this section.
+>    1.2 Skipped
 
->    2.1 Download Avaialble Mode. Set modelName to *Stable-Diffusion-v1-5*.
+>    2.1 Download Available Model. Set modelName to *Stable-Diffusion-v1-5*.
+
+>    2.2 Skipped
 
 >    2.3 Download Available VAE(Optional). Choose vaeName as *stableddiffusion_v1_5*.
 
->    3.1. Just run the *Locating Train Data Directory* section.
+>    3.1 Run *Locating Train Data Directory* as is.
 
 >    3.2. Unzip Dataset. Click on icon folder in Kohya LoRA (top left), select the **drive** folder. Select *Copy path* option for your zip files and paste it into *zipfile_url*.
 
->    4.2.1 Run the *Blip Captioning* section without any changes.The content will appear in **train_data** folder.
+>    3.3 Skipped
 
->    5.1. Model Config. Name your *project_name*. Select *Copy path* option for your Stable-Diffusion-v1-5.safetensors (under pretrained_model folder) and paste it into *vae*. And ✅ *output_to_drive*.
+>    4.1 Skipped
+
+>    4.2.1 Run *Blip Captioning* section as is.The content will appear in **train_data** folder.
+
+>    4.2.2 and 4.2.3 Skipped
+
+>    5.1  Model Config. Name your *project_name*. Select *Copy path* option for your Stable-Diffusion-v1-5.safetensors (under pretrained_model folder) and paste it into *vae*. And ✅ *output_to_drive*.
 
 >    5.2  Dataset Config. Name your *class_token*. Select *Copy path* option for your train_data and paste it into *train_data*.
 
@@ -33,7 +41,9 @@ and [Cagliostro Colab UI](https://colab.research.google.com/github/Linaqruf/sd-n
 >    5.4 Training Config. Only change *train_batch_size* to 2 and let it run.
 
 >    :watch: Run the 5.5 Start Training section. It might take 40 minutes.Your files should be save in your Google Drive in your LoRA folder. Let`s now get to the next step.
-    
+
+> Skipped 5.5 and the whole VI section.
+
 > **Cagliostro Colab UI settings to choose and run:**
 Download your LoRA files and upload to stable-diffusion-webui -> model -> LoRA files. Settings are described in CCUI1.png and CCUI2.png files. The rest of the code must be run unchanged. Click on one of the 3 links in Start Cagliostro Colab section to get to the UI page.
 
