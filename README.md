@@ -22,7 +22,7 @@ and [Cagliostro Colab UI](https://colab.research.google.com/github/Linaqruf/sd-n
 
 >    3.1 Run *Locating Train Data Directory* as is.
 
->    3.2. Unzip Dataset. Click on icon folder in Kohya LoRA (top left), select the **drive** folder. Select *Copy path* option for your zip files and paste it into *zipfile_url*.
+>    3.2 Unzip Dataset. Click on icon folder in Kohya LoRA (top left), select the **drive** folder. Select *Copy path* option for your zip files and paste it into *zipfile_url*.
 
 >    3.3 Skipped
 
@@ -36,7 +36,7 @@ and [Cagliostro Colab UI](https://colab.research.google.com/github/Linaqruf/sd-n
 
 >    5.2  Dataset Config. Name your *class_token*. Select *Copy path* option for your train_data and paste it into *train_data*.
 
->    5.3  LoRA config. Set *conv_dim* to 8, *conv_alpha* to 1, *network_dim* to 16, and *network_aplha* to 1. Then proceed with changing *unet_lr* to 5e-4, *text_encoder_lr* to 1e-4, *lr_scheduler* to cosine_with_restarts, and *lg_warmup_steps* to 0.05.  **This will give us a learning rate of approximately 950 steps.**
+>    5.3  LoRA config. Set *conv_dim* to 8, *conv_alpha* to 1, *network_dim* to 16, and *network_aplha* to 1. Then proceed with changing *unet_lr* to 5e-4, *text_encoder_lr* to 1e-4, *lr_scheduler* to cosine_with_restarts, and *lg_warmup_steps* to 0.05.  
 
 >    5.4 Training Config. Only change *train_batch_size* to 2 and let it run.
 
@@ -47,7 +47,7 @@ and [Cagliostro Colab UI](https://colab.research.google.com/github/Linaqruf/sd-n
 > **Cagliostro Colab UI settings to choose and run:**
 Download your LoRA files and upload to stable-diffusion-webui -> model -> LoRA files. Settings are described in CCUI1.png and CCUI2.png files. The rest of the code must be run unchanged. Click on one of the 3 links in Start Cagliostro Colab section to get to the UI page.
 
-> In UI, find Lora panel to make sure your files are saved.Here you can test your models one by one.Once clicked, it appears there. Add a short prompt.
+> In UI, find Lora panel to make sure your files are saved.Here you can test your models one by one.Once clicked, it appears there.Add a prompt.
 
 > Example:point_right:  \<lora:Sample-000001:1> RAW photo of the GIRL,(high detailed:1.2), 8K UHD, DSLR,soft lightning,high quality, film grain, Fujifilm XT3, masterpiece, best quality.
 
@@ -59,7 +59,7 @@ Download your LoRA files and upload to stable-diffusion-webui -> model -> LoRA f
 
 > Now, Control Model-1 was also set to ✅Enable, Preprocessor:canny, Model: control_sd15_canny[fef5e48e].
 
-> At this point we are ready to click the Generate button and enjoy the results!
+> At this point we are ready to click the **Generate** button and enjoy the results!
 
 
 
