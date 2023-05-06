@@ -47,11 +47,13 @@ and [Cagliostro Colab UI](https://colab.research.google.com/github/Linaqruf/sd-n
 > **Cagliostro Colab UI settings to choose and run:**
 Download your LoRA files and upload to stable-diffusion-webui -> model -> LoRA files. Settings are described in CCUI1.png and CCUI2.png files. The rest of the code must be run unchanged. Click on one of the 3 links in Start Cagliostro Colab section to get to the UI page.
 
-> In UI, find Lora panel to make sure your files are saved.Here you can test your models one by one.Once clicked, it appears there.Add a prompt.
+> In UI, find Lora panel to make sure your files are saved.Here you can test your models one by one.Once clicked, it appears there.
 
-> Example:point_right:  \<lora:Sample-000001:1> RAW photo of the GIRL,(high detailed:1.2), 8K UHD, DSLR,soft lightning,high quality, film grain, Fujifilm XT3, masterpiece, best quality.
+> Add a prompt.
+Example:point_right:  \<lora:Sample-000001:1> RAW photo of the GIRL,(high detailed:1.2), 8K UHD, DSLR,soft lightning,high quality, film grain, Fujifilm XT3, masterpiece, best quality.
 
-> Add a negative prompt as well. Example:point_right: (worst quality, low quality, deformed iris, deformed pupils, semi-realistic, cgi, 3d, render,sketch,cartoon,drawing, anime: 1:4), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, malformed limbs, missing arms, extra arms, extra legs, fused fingers, too many fingers, long neck.
+> Add a negative prompt as well. 
+Example:point_right: (worst quality, low quality, deformed iris, deformed pupils, semi-realistic, cgi, 3d, render,sketch,cartoon,drawing, anime: 1:4), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, malformed limbs, missing arms, extra arms, extra legs, fused fingers, too many fingers, long neck.
 
 > Sampling methois set to DPM++ SDE, sampling steps set to 25, Width/Height :768, Batch count/batch size: 1, CFG Scale: 6, Denoising strength: 0.11, seed: -1.
 
